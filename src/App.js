@@ -18,7 +18,7 @@ class App extends Component {
     list.push(value);
     this.setState({list : list});
   }
-//todo delete function
+  
   deleteTodo(key){
     var list = this.state.list;
     var newList = list.splice(key,1);

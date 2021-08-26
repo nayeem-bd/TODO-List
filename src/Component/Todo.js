@@ -42,6 +42,3 @@ class Todo extends React.Component {
 }
 
 export default Todo;
-
-                    // <input ref="newTodo" placeholder="Enter your TODO" />
-                    // <button type="submit">Submit</button>
