@@ -35,7 +35,7 @@ class TodoShow extends Component {
 
     render() {
         return (
-            <ul className="list-group">
+            <ul className="list-group w-100 scrollable">
                 {this.showTodo()}
             </ul>
         );

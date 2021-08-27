@@ -35,7 +35,7 @@ class Todo extends React.Component {
                             <button type="submit" className="btn btn-primary mb-3">Submit</button>
                         </div>
                 </form>
-                <TodoShow lists = {this.props.lists} deleteTodo ={this.props.deleteTodo} />
+                  <TodoShow lists = {this.props.lists} deleteTodo ={this.props.deleteTodo} />         
             </div>
         );
     }
